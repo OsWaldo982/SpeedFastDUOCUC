@@ -6,6 +6,10 @@ public class PedidoExpress extends Pedido {
     private static final int RECARGO_DISTANCIA_MINUTOS = 5;
     private static final int LIMITE_DISTANCIA_KM = 5;
 
+    public PedidoExpress(int idPedido, String direccionEntrega) {
+        this(idPedido, direccionEntrega, 1);
+    }
+
     public PedidoExpress(int idPedido, String direccionEntrega, int distanciaKm) {
         super(idPedido, direccionEntrega, distanciaKm);
     }
