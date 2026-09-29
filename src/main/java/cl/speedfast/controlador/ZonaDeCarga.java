@@ -1,7 +1,7 @@
-package cl.speedfast.service;
+package cl.speedfast.controlador;
 
-import cl.speedfast.model.EstadoPedido;
-import cl.speedfast.model.Pedido;
+import cl.speedfast.modelo.EstadoPedido;
+import cl.speedfast.modelo.Pedido;
 
 import java.util.ArrayList;
 import java.util.List;

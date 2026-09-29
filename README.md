@@ -6,8 +6,8 @@ Continuacion del proyecto SpeedFast para la actividad de Semana 6 de Desarrollo 
 Agregar una interfaz grafica de escritorio con Java Swing al sistema de pedidos y entregas desarrollado en semanas anteriores.
 
 ## Estructura principal
-- `cl.speedfast.model`: modelos de pedidos, estados y repartidores.
-- `cl.speedfast.service`: controlador compartido y zona de carga sincronizada.
+- `cl.speedfast.modelo`: modelos de pedidos, estados y repartidores.
+- `cl.speedfast.controlador`: controlador compartido y zona de carga sincronizada.
 - `cl.speedfast.vista`: ventanas Swing.
 - `cl.speedfast.main`: punto de entrada de la aplicacion.
 
